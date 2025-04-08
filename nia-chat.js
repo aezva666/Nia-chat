@@ -19,7 +19,7 @@
 
   // Crear iframe (esto se conectará al frontend de NIA más adelante)
   const iframe = document.createElement('iframe');
-  iframe.src = `https://nia-backend.com/chat?client_id=${clientId}`; // ⚠️ CAMBIA ESTA URL cuando tengas el frontend desplegado
+  iframe.src = `https://nia-frontend-lilac.vercel.app/?client_id=${clientId}`; // ⚠️ CAMBIA ESTA URL cuando tengas el frontend desplegado
   iframe.style.width = '100%';
   iframe.style.height = '100%';
   iframe.style.border = 'none';
